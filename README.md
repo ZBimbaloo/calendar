@@ -16,6 +16,10 @@ Taro UI的Calendar 日历组件功能及页面可扩展性不强，不能满足�
 - 因为Taro UI Calendar组件并未提供农历、节气、假期、放假调休时间等数据，我在这里引入'lunar-javascript'插件提供缺少的数据，在使用组件时记得引入'lunar-javascript'插件。
 
 
+3、参数事件
+
+- 组件参数事件与Taro UI Calendar组件保持一致，具体可参考Taro UI Calendar组件。
+  
 三、效果体验
 
 
