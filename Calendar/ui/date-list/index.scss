@@ -1,0 +1,97 @@
+.at-calendar__list.flex{
+    .flex__item--today{
+        .flex__item-container {
+         background-color: #7C86A2;
+         border-radius: 20%;
+         display: block;
+         .container-text{
+            color: #fff;
+        }
+        .container-lunarText{
+            color: #fff;
+            .red{
+                color: #fff !important;
+            }
+            .green{
+                color: #fff !important;
+            }
+        }
+        }
+    }
+    .flex__item-container {
+        border-radius: 20%;
+        display: block;
+        .week{
+            color: #dd524b 
+        }
+        .container-text{
+            position: relative;
+            top:5px;
+            .work{
+                position: absolute;
+                top: -1px;
+                font-size: 12px;
+                right: 6px;
+                color: #dd524b;
+            }
+            .rest{
+                position: absolute;
+                top: -1px;
+                font-size: 12px;
+                right: 6px;
+                color: #4ca342;
+            }
+        }
+        .container-lunarText{
+            font-size: 18px;
+            .red{
+                color: #dd524b;
+            }
+            .green{
+                color: #4ca342;
+            }
+        }
+    }
+    .flex__item--selected-head.flex__item--selected-tail {
+        .red{
+            color: #fff;
+        }
+        .green{
+            color: #fff;
+        }
+        .week{
+            color: #fff;
+        }
+    }
+    .flex__item--blur {
+        .week{
+            color: #f1d8d7;
+        }
+        .container-text{
+            .work{
+                position: absolute;
+                top: -1px;
+                font-size: 12px;
+                right: 6px;
+                color: #f1d8d7;
+            }
+            .rest{
+                position: absolute;
+                top: -1px;
+                font-size: 12px;
+                right: 6px;
+                color: #b7e0b2;
+            }
+        }
+        .container-lunarText{
+            .red{
+                color: #f1d8d7;
+            }
+            .green{
+                color: #b7e0b2;
+            }
+        }
+        
+    }
+    
+}
